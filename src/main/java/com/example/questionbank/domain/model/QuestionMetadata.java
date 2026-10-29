@@ -26,8 +26,13 @@ public class QuestionMetadata {
         this.lastReviewDate = lastReviewDate;
     }
 
+
     public Long getId() { return id; }
     public String getCognitiveLevel() { return cognitiveLevel; }
     public int getEstimatedTimeMinutes() { return estimatedTimeMinutes; }
     public LocalDateTime getLastReviewDate() { return lastReviewDate; }
+    
+    public void setLastReviewDate(LocalDateTime lastReviewDate) {
+    this.lastReviewDate = lastReviewDate;
+    }
 }
